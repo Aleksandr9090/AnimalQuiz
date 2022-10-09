@@ -56,15 +56,55 @@
 		1F6F6A1328F2B0B8003CEEEA /* AnimalQuiz */ = {
 			isa = PBXGroup;
 			children = (
-				1F6F6A1428F2B0B8003CEEEA /* AppDelegate.swift */,
-				1F6F6A1628F2B0B8003CEEEA /* SceneDelegate.swift */,
-				1F6F6A1828F2B0B8003CEEEA /* ViewController.swift */,
-				1F6F6A1A28F2B0B8003CEEEA /* Main.storyboard */,
-				1F6F6A1D28F2B0BB003CEEEA /* Assets.xcassets */,
-				1F6F6A1F28F2B0BB003CEEEA /* LaunchScreen.storyboard */,
-				1F6F6A2228F2B0BB003CEEEA /* Info.plist */,
+				1F6F6A2C28F2B1CC003CEEEA /* Models */,
+				1F6F6A2828F2B10F003CEEEA /* ViewControllers */,
+				1F6F6A2B28F2B1B7003CEEEA /* Storyboards */,
+				1F6F6A2A28F2B194003CEEEA /* Resourses */,
+				1F6F6A2928F2B15F003CEEEA /* App */,
 			);
 			path = AnimalQuiz;
+			sourceTree = "<group>";
+		};
+		1F6F6A2828F2B10F003CEEEA /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1F6F6A1828F2B0B8003CEEEA /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1F6F6A2928F2B15F003CEEEA /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1F6F6A1428F2B0B8003CEEEA /* AppDelegate.swift */,
+				1F6F6A1628F2B0B8003CEEEA /* SceneDelegate.swift */,
+				1F6F6A2228F2B0BB003CEEEA /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		1F6F6A2A28F2B194003CEEEA /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				1F6F6A1D28F2B0BB003CEEEA /* Assets.xcassets */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		1F6F6A2B28F2B1B7003CEEEA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				1F6F6A1A28F2B0B8003CEEEA /* Main.storyboard */,
+				1F6F6A1F28F2B0BB003CEEEA /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		1F6F6A2C28F2B1CC003CEEEA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,7 +331,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6T3C77J6JN;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AnimalQuiz/Info.plist;
+				INFOPLIST_FILE = AnimalQuiz/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -306,7 +346,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,7 +359,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6T3C77J6JN;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AnimalQuiz/Info.plist;
+				INFOPLIST_FILE = AnimalQuiz/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -334,7 +374,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
